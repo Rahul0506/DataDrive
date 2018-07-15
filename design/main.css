@@ -1,0 +1,111 @@
+@font-face {
+  font-family: nunito-light;
+  src: url('../design/nunito/Nunito-Light.ttf');
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  font-family: nunito-light;
+}
+
+/* TESTING AREA */
+.qvobject {
+  position: relative;
+	height: 300px;
+	min-width: 300px;
+	margin: 20px 0 0 3px;
+  background-color: none;
+}
+
+.header-bar {
+  position: relative;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  margin-bottom: 0px;
+}
+
+.logo p {
+  margin: 0;
+  margin-left: 7%;
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #f39c12;
+  text-align: left;
+  vertical-align: center;
+}
+
+.logo p span {
+  color: #e55039;
+  font-weight: 1400;
+}
+
+.expand{
+  height: 600px;
+  width: 80%;
+}
+
+.exp-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  opacity: 0.0;
+}
+
+.exp-button:hover {
+  opacity: 0.6;
+}
+
+.button-x {
+  background-color: blue;
+}
+
+.button-x::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 20px;
+  width: 5px;
+  background-color: #bbb;
+  transform: rotateZ(45deg);
+}
+
+.button-x::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 20px;
+  width: 5px;
+  background-color: #bbb;
+  transform: rotateZ(-45deg);
+}
+
+.map-marker-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #6e4fac;
+  border: 2px solid #5f27cd;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif, Avenir Next;
+}
