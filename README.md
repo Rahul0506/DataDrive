@@ -1,3 +1,5 @@
-# EzFkingGameBois
+# DataDrive
 
-You gotta put all of these in a folder and into the Extensions folder of quik sense for the grpahs to show
+Business, made convenient.
+
+PS: Folder has to be located in the Extensions folder within QuikSense for the QuiKSense graphs to show.
